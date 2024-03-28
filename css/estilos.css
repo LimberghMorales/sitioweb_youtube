@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    margin: 80px 80px 40px;
+}
+.lista_menu ul li{
+    display: inline-block;
+}
+.lista_menu ul li a{
+    text-decoration: none;
+    padding-right: 60px;
+}
+
+.menu,a{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: black;
+}
+.contacto_boton input{
+    background: transparent;
+    border: 1px solid black;
+    padding: 8px 24px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.contacto_boton input:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+
+/* ______________________________________________ */
+.entrada_principal{
+    /* border: 1px solid red; */
+    margin: 0px 80px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.entrada_principal .caja_principal{
+    width: 44%;
+    display: inline-block;
+}
+.entrada_principal .caja_principal .titulo{
+    font-size: 90px;
+    text-align: left;
+}
+.caja_principal .descripcion{
+    text-align: justify;
+    font-size: 18px;
+    padding: 20px 0px;
+}
+.caja_principal .boton_reservar{
+    background-color: black;
+    color: white;
+    margin: 20px 0px 0px;
+    padding: 15px 20px;
+    width: 300px;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.boton_reservar:hover{
+    background-color: rgb(7, 1, 54);
+}
+.entrada_principal .imagen{
+    width: 50%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    display: inline-block;
+    /* overflow: hidden; */
+    /* border: 1px solid red; */
+    background-image: url(../imagenes/imagen.webp);
+    background-size: cover;
+}
+/* .imagen img{
+    /* object-fit: cover; */
+    /* position: relative;
+    background-size: cover;
+    background-repeat: repeat; */
+    /* height: 100%; */
+
+/* ______________________________ */
+.memoria{
+    background-color: rgb(20, 20, 20);
+}
+.tarjeta_memoria{
+    padding: 40px 0px;
+    margin: auto;
+    width: 400px;
+    color: white;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+.tarjeta_memoria .titulo{
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+.tarjeta_memoria .descripcion{
+    padding: 35px 0px;
+    text-align: center;
+}
+.tarjeta_memoria .boton_memorias{
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 15px 20px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 45px;
+    /* text-align: center; */
+}
+/* ___________________________ */
+.tarjetas{
+    /* border: 1px solid black; */
+    margin: 100px 80px;
+    /* width: 100%; */
+    display: flex;
+  /* justify-content: flex-end; */
+    justify-content: space-between;
+}
+.tarjeta{
+    width: 350px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.tarjetas .tarjeta .cabecera_tarjeta{
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    height: 200px;
+}
+.tarjeta .info_tarjeta .titulo{
+    text-align: start;
+    width: 200px;
+    padding: 35px 0px 10px; 
+}
+.tarjeta .info_tarjeta .descripcion{
+    text-align: justify;
+}
+/* ______________________ */
+.info_vuelos{
+    margin: 250px 80px 100px;
+    text-align: center;
+}
+.info_vuelos i{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.info_vuelos .titulo{
+    font-size: 80px;
+    width: 600px;
+    margin: auto;
+}
+.info_vuelos span{
+    text-decoration: underline;
+}
+.elementos_menu{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    /* border: 1px solid red; */
+}
+.elementos_menu p{
+    font-size: 20px;
+}
+.separador{
+    border-left: 2px solid black;
+    height: 25px;
+    margin: 0px 4px;
+}
+
+/* ____________________________________ */
+/* descripcion lugar */
+.descripcion_lugar{
+    /* border: 1px solid red; */
+    margin: 80px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.descripcion_lugar .imagen_principal{
+    background-image: url(../imagenes/imagen.webp);
+    background-size: cover;
+    /* border: 1px solid rgb(38, 0, 255); */
+    height: 540px;
+    /* width: 200px; */
+    width: 35%;
+}
+.descripcion_lugar .caja_descripcion{
+    width: 60%;
+    /* border: 1px solid rgb(43, 255, 0); */
+
+}
+.descripcion_lugar .caja_descripcion .imagen_descripcion{
+    background-image: url(../imagenes/imagen.webp);
+    background-size: cover;
+    width: 60%;
+    /* border: 1px solid red; */
+    height: 300px;
+}
+.descripcion_lugar .caja_descripcion .detalles{
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+    justify-content: space-between;
+}
+.descripcion_lugar .caja_descripcion .detalles .titulo{
+    width: 25%;
+    /* border: 1px solid red; */
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.descripcion_lugar .caja_descripcion .detalles .descripcion{
+    width: 55%;
+    /* border: 1px solid red; */
+    margin-left: 30px;
+    text-align: justify;
+}
+/* ______________________elije */
+.elije{
+    background-color: black;
+    color: white;
+    padding: 100px 0px 100px 80px;
+}
+.caja_elige{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.caja_elige .imagen{
+    background-image: url(../imagenes/imagen.webp);
+    background-size: cover;
+}
+.caja_elige .detalles{
+    width: 40%;
+}
+.caja_elige .imagen{
+    width: 55%;
+    height: 420px;
+}
+.caja_elige .detalles, .imagen{
+    /* border: 1px solid red; */
+}
+.caja_elige .detalles .titulo_principal{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.caja_elige .detalles .separador_caja{
+    margin-bottom: 30px;
+}
+.descripcion_caja .titulo{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.descripcion_caja .descripcion{
+    text-align: justify;
+}
+/* __________________lista_detalles___________ */
+.lista_detalles{
+    margin: 100px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.lista_detalles .detalles{
+    width: 60%;
+}
+.lista_detalles .imagen{
+    background-image: url(../imagenes/imagen.webp);
+    background-size: cover;
+    width: 33%;
+    height: 450px;
+}
+.lista_detalles .detalles .cabecera_detalles .titulo{
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.lista_detalles .detalles .cabecera_detalles .listado{
+    list-style: none;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.listado .capsula{
+    position: relative;
+}
+.lista_detalles .detalles .cabecera_detalles .listado li{
+    padding: 10px 40px;
+}
+.lista_detalles .detalles .cabecera_detalles .listado hr{
+    border: none; height: 3px; /* Set the hr color */ color: #000000; /* old IE */ background-color: #333;
+}
+.lista_detalles .detalles .cabecera_detalles .listado i{
+    position: absolute;
+    right: 0px;
+    margin-right: 40px;
+    top: 12px;
+}
+
+/* ______________________________________________usuarios */
+.usuarios{
+    margin: 100px 80px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.usuarios .titulo_principal{
+    font-size: 120px;
+    text-align: center;
+    font-weight: bold;
+    width: 900px;
+    margin:60px auto;
+    /* border: 1px solid red; */
+}
+.usuarios .comentarios_usuarios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.usuarios .comentarios_usuarios .tarjeta_usuario{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    padding: 30px;
+}
+.usuarios .tarjeta_usuario img{
+    width: 200px;
+    margin: 30px 0px 20px;
+}
+.usuarios .tarjeta_usuario .titulo{
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+}
+.usuarios .fa-arrow-left-long, .fa-arrow-right-long{
+    position: absolute;
+    top:480px;
+    font-size: 40px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: white;
+}
+.usuarios .botones .fa-arrow-left-long{
+    left: -30px;
+}
+.usuarios .botones .fa-arrow-right-long{
+    right: -30px;
+}
+
+/* __________________________________contacto   */
+.contacto .imagen{
+    background-image: url(../imagenes/imagen.webp);
+    background-size: cover;
+    width: 60%;
+    height: 478px;
+    /* border: 1px solid red; */
+}
+.contacto{
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    margin: 80px 80px 40px;
+    justify-content: space-between;
+}
+.contacto .formulario{
+    width: 35%;
+    height: 100%;
+}
+.contacto .formulario .titulo{
+    text-align: center;
+    font-size: 60px;
+    margin: 0px 0px 20px;
+    font-weight: bold;
+}
+.contacto .formulario input, textarea{
+    width: 100%;
+    margin: 5px 0px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.contacto .formulario input[type=submit]{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.contacto .formulario input[type=submit]:hover{
+    background-color: rgb(2, 8, 27);
+}
+.contacto .formulario input::placeholder, textarea::placeholder{
+    color: black;
+}
+/* _______________________________pie_pagina */
+.contenedor_pie_pagina{
+    background-color: #c4c4c4;
+    padding: 15px 0px;
+}
+.pie_pagina{
+    display: flex;
+    flex-direction: row;
+    margin: 80px 80px 40px;
+}
+.pie_pagina .titulo_principal{
+    /* border: 1px solid red; */
+    width: 20%;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.pie_pagina .info{
+    /* border: 1px solid red; */
+    width: 80%;
+}
+.pie_pagina .info .titulo{
+    font-weight: bold;
+    padding: 15px;
+    font-size: 20px;
+}
+.pie_pagina .info .caja_enlaces .grupos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pie_pagina .info .caja_enlaces ul li{
+    list-style: none;
+}
+.pie_pagina .info .caja_enlaces ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px;
+}
+.pie_pagina .info .informacion{
+    padding: 60px 20px;
+}
